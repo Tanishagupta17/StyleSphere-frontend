@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import {useDispatch, useSelector} from 'react-redux'
 import { getUser, register } from '../../../State/auth/Action'
 import { useEffect } from 'react'
-import { store } from '../../../State/Store'
+import { store } from '../../../State/store'
 
 const SignUp = () => {
   const [formData, setFormData] = useState({ name: '',email: '', mobile: '', password: '' })
